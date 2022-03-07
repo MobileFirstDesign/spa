@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <title>Medicinal Food News - archive</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="A single page app for 270 food news articles archiving 25 years on the web.">
+  <meta name="verify-v1" content="OM+xYUheZcc2YviGqnkhZMUQM7WRTPop7gGL3N3Z+Mo=">
+  <meta name="robots" content="index,follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#d7ebed" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#00284a" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#1f1f1f">
+  <link rel="apple-touch-icon" href="./icon-180.png">
+  <link rel="href" href="./favicon.ico" sizes="any">
+  <link rel="href" href="./favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.json" />
+  <style>:root{color-scheme:light-dark;--clr-accent:#970017;--icon-external-link:url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><g style="stroke:#23527c;stroke-width:1"><line x1="5" y1="5" x2="5" y2="14" /><line x1="14" y1="9" x2="14" y2="14" /><line x1="5" y1="14" x2="14" y2="14" /><line x1="5" y1="5" x2="9" y2="5" /><line x1="10" y1="2" x2="17" y2="2" /><line x1="17" y1="2" x2="17" y2="9" /><line x1="10" y1="9" x2="17" y2="2" style="stroke-width:1.5" /></g></svg>')}*,::before,::after{box-sizing:border-box;margin:0;padding:0}html{color-scheme:light;--page-color:#fff;--ink-color:#000;--menupage-color:#000;--menuink-color:#fff;--link-color:#C3C3C3;--visited-color:#EAEAEA;--active-color:#ACACAC;--table-row:lightgray;--drop-shadow:#000}img .invert{filter:inver(0%)}@media (prefers-color-scheme: dark){html{color-scheme:dark;--page-color:#000;--ink-color:#fff;--menupage-color:#fff;--menuink-color:#000;--link-color:#fff;--visited-color:#fff;--active-color:#FF9E9E;--table-row:gray;--font-size-fluid-1:clamp(1rem,4vw,1.5rem);--drop-shadow:red}img .invert{filter:inver(100%);stroke:#fff}svg{stroke:#fff}}[data-theme=dark]{--page-color:#000;--ink-color:#fff;--menupage-color:#fff;--menuink-color:#000;--link-color:#000;--visited-color:#000;--active-color:#FF9E9E;--table-row:gray;--drop-shadow:red}body{background-color:var(--page-color);color:var(--ink-color);font-family:'helvetica neue',helvetica,arial,sans-serif;line-height:1.5;height:100%;font-weight:400;scroll-behavior:smooth}h2,.center-img{text-align:center}header{background:var(--clr-accent);text-align:center;position:sticky;position:-webkit-sticky;top:0;height:60px;z-index:1;box-shadow:#000 0 0 10px 0}.flex-between{display:flex;justify-content:space-between;align-items:center;max-width:915px;height:60px;margin-inline:auto}.infobtn{font-size:30px;cursor:pointer;color:#fff;padding:4px 20px;background:transparent;border:1px solid var(--ink-color);border-radius:50%}.infobtn:hover{background-color:#444}footer{background:transparent;text-align:center;position:fixed;bottom:0;height:48px;z-index:1;width:100%}.previous,.next,.menu{text-decoration:none;display:inline-block;padding:8px 16px;margin-bottom:-4px;color:#fff;background:var(--clr-accent);border:1px #fff solid;cursor:pointer}.logo{font:bold 44px "Trebuchet MS",Helvetica,sans-serif;letter-spacing:2px;color:#fff}.logo-title{text-transform:uppercase;margin-top:0;font-size:clamp(0.95rem,-0.0375rem + 3.5000vw,2.2rem)}.logo-title::first-letter{font-size:200%;float:left;line-height:.9}.logo-title > span{font-size:200%;float:right;line-height:.9;top:-.1em;font-style:normal}.logo-motto{text-align:center;font-size:clamp(.45rem,1.6vw,1.25rem);margin-top:-.2em}.moon{fill:none}.sun{display:none;fill:none}[data-theme=dark] .sun{display:block}[data-theme=dark] .moon{display:none}[data-theme=dark] body{color:var(--ink-color);background:var(--page-color)}.theme-toggle{border-radius:50%;padding:8px 6px 0;background:transparent}.wrapper{max-width:70ch;margin-inline:auto;padding:60px .5em 2em}.search{-webkit-appearance:none;background:hsl(220 100% 99.6%);border-radius:15px;padding:1rem 1.777rem;box-shadow:0 8px 10px hsl(220 43.6% 57.5% / 14%),0 3px 14px 2px hsl(220 43.6% 57.5% / 12%),0 5px 5px -3px hsl(220 43.6% 57.5% / 20%);-webkit-box-shadow:0 8px 10px hsl(220 43.6% 57.5% / 14%),0 3px 14px 2px hsl(220 43.6% 57.5% / 12%),0 5px 5px -3px hsl(220 43.6% 57.5% / 20%);width:100%;max-width:400px;display:block;margin:auto;position:sticky;top:60px}input,input::placeholder{font-family:inherit;color:#000;width:100%;font-size:24px;border:none}#myTable tr > :nth-child(3){display:none}table{margin-inline:auto;border:1px solid var(--ink-color);margin-top:1rem}table a{cursor:pointer;padding:15px 0;color:var(--ink-color)}thead th{background:var(--clr-accent);color:#fff;text-align:center;padding:0 1.5rem}td{padding:0 1rem}.cell-right{font-weight:700;text-align:right}.cell-img{text-align:center}table > caption{border:1px solid var(--ink-color);background:var(--clr-accent);color:#fff}tbody tr:nth-child(odd){background-color:var(--table-row);color:var(--ink-color)}.publish-date{font-size:1rem;text-align:center}.dropcap::first-letter{font-family:times new roman,serif;float:left;color:var(--clr-accent);line-height:.65;font-size:5.35em;margin-top:.1em;margin-right:.15em;text-shadow:4px 2px 10px var(--drop-shadow);-webkit-initial-letter:3;initial-letter:3}blockquote{width:320px;float:right;font-size:16.8px;font-weight:700;text-align:center;line-height:1;padding-top:1rem;position:relative;z-index:0}blockquote:before{position:absolute;top:-5px;left:0;z-index:-1;content:open-quote;font-size:200px;color:lightgray}.well{background:#ccc;color:#000;padding:10px;list-style-position:inside}dt{font-weight:700}dd{display:block;margin-inline-start:40px}fieldset{padding-block-start:.35em;padding-inline-start:.75em;padding-inline-end:.75em;padding-block-end:.625em;min-inline-size:min-content}legend{padding:0 .5rem}.svg-clr{stroke:var(--ink-color);fill:none}.svg-text{font-size:.5em;fill:var(--ink-color)}@media (max-width: 768px){.wrapper{padding-top:10px}.float-img{float:none;display:table;margin:0 auto;padding:1rem 0;fill:var(--ink-color)}blockquote{margin:0 auto;float:none;padding-bottom:1rem}.previous{width:33%;text-align:left}.menu{left:33%;width:34%;text-align:center;padding:3px 0}.next{width:33%;text-align:right}}@media (min-width: 769px){.float-img{float:right;padding:1rem 0 1rem 1rem;fill:var(--ink-color)}.previous{border-top-right-radius:10px}.next{border-top-left-radius:10px}.menu{border-radius:10px 10px 0 0}.wrapper{font-size:24px}}</style>
+<body>
+  <header>
+    <nav class="flex-between">
+      <a class="infobtn" data-page="page215"><em>i</em></a>
+      <div class="logo">
+        <h1 class="logo-title" title="Medicinal Food News">Medicinal Food New<span>s</span></h1>
+        <p class="logo-motto">food that improves your health</p>
+      </div>
+      <button class="theme-toggle" id="theme-toggle" title="Toggles light &amp; dark theme" aria-label="light" >
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <path class="moon" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          <path class="sun" d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79zM1 10.5h3v2H1zM11 .55h2V3.5h-2zm8.04 2.495l1.408 1.407-1.79 1.79-1.407-1.408zm-1.8 15.115l1.79 1.8 1.41-1.41-1.8-1.79zM20 10.5h3v2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm-1 4h2v2.95h-2zm-7.45-.96l1.41 1.41 1.79-1.8-1.41-1.41z"/>
+        </svg>
+      </button>
+    </nav>
+  </header>
+  
+  <section class="wrapper" id="top">
+
+  <article>
+    <nav>
+      <form class="search"><input type="text" id="myInput" onkeyup="mySearch()" placeholder="Enter search term" title="Type in a name"></form>
+    <table id="myTable">
+      <thead> <tr> <th data-priority="1" style="width:50px">id</th> <th data-priority="2">Title</th> <th data-priority="3">Tags</th></tr> </thead>
+      <tbody id="articles">      
+<tr><td>1</td><td><a data-page="page1" href="/">Functional Foods - What are We Talking About</a></td><td>functional food</td></tr>
+<tr><td>2</td><td><a data-page="page2" href="/">Probiotics - Bacteria that are Good for Your Health</a></td><td>probiotics</td></tr>
+<tr><td>3</td><td><a data-page="page3" href="/">Nutraceutics - Why Take Pills</a></td><td>nutraceuticals</td></tr>
+<tr><td>4</td><td><a data-page="page4" href="/">What We are Trying to Do</a></td><td>info</td></tr>
+<tr><td>5</td><td><a data-page="page5" href="/">Playing Your ACE’s</a></td><td>vitamins</td></tr>
+<tr><td>6</td><td><a data-page="page6" href="/">Functional Foods in Japan</a></td><td>functional food</td></tr>
+<tr><td>7</td><td><a data-page="page7" href="/">Stay in the Pink</a></td><td>grapefruit</td></tr>
+<tr><td>8</td><td><a data-page="page8" href="/">Selenium Makes the News</a></td><td>selenium</td></tr>
+<tr><td>9</td><td><a data-page="page9" href="/">Functional Foods and the Baby Boomers</a></td><td>functional food</td></tr>
+<tr><td>10</td><td><a data-page="page10" href="/">Bifido Bacteria – The Friendly Bacteria</a></td><td>probiotic</td></tr>
+<tr><td>11</td><td><a data-page="page11" href="/">FOSHU Foods in Japan</a></td><td> fushu Japan</td></tr>
+<tr><td>12</td><td><a data-page="page12" href="/">Eat Your Porridge – it’s Good for You</a></td><td> porridge</td></tr>
+<tr><td>13</td><td><a data-page="page13" href="/">When is a Food a Drug?</a></td><td> drug</td></tr>
+<tr><td>14</td><td><a data-page="page14" href="/">Reading Labels - Fat Soluble Vitamins</a></td><td>label vitamin</td></tr>
+<tr><td>15</td><td><a data-page="page15" href="/">The Health Benefits of Tea</a></td><td> vitamins tea</td></tr>
+<tr><td>16</td><td><a data-page="page16" href="/">Kombucha tea</a></td><td> tea</td></tr>
+<tr><td>17</td><td><a data-page="page17" href="/">How Antioxidants Work</a></td><td> antioxidants</td></tr>
+<tr><td>18</td><td><a data-page="page18" href="/">Selenium Low in British Diets</a></td><td> selenium</td></tr> 
+<tr><td>19</td><td><a data-page="page19" href="/">Reading Labels - B Vitamins</a></td><td> labels</td></tr>
+<tr><td>20</td><td><a data-page="page20" href="/">Milk to Yogurt an EM Story</a></td><td> dairy yogurt</td></tr>       
+<tr><td>21</td><td><a data-page="page21" href="/">How Are We Doing?</a></td><td> website status</td></tr>
+<tr><td>22</td><td><a data-page="page22" href="/">Vegetable Oils - Sources of Vitamin E</a></td><td> oil</td></tr>
+<tr><td>23</td><td><a data-page="page23" href="/">Fructooligosaccharides - FOS</a></td><td> fos</td></tr>
+<tr><td>24</td><td><a data-page="page24" href="/">Older Women May Need More Zinc</a></td><td> zinc</td></tr>
+<tr><td>25</td><td><a data-page="page25" href="/">Anti-cancer Polyphenols</a></td><td> polyphenols</td></tr>
+<tr><td>26</td><td><a data-page="page26" href="/">Garlic in the Medicine Cabinet</a></td><td> garlic</td></tr>
+<tr><td>27</td><td><a data-page="page27" href="/">Types of Fat</a></td><td> fat</td></tr>
+<tr><td>28</td><td><a data-page="page28" href="/">Chinese Medicinal Foods</a></td><td> chinese</td></tr>
+<tr><td>29</td><td><a data-page="page29" href="/">Folic Acid Important to Reduce Birth Defects</a></td><td> folic acid</td></tr>
+<tr><td>30</td><td><a data-page="page30" href="/">New and Improved Foods</a></td><td> improved</td></tr>
+<tr><td>31</td><td><a data-page="page31" href="/">How Foods Cure Cancer</a></td><td>cancer </td></tr>
+<tr><td>32</td><td><a data-page="page32" href="/">Trans Fatty Acids and Heart Disease</a></td><td> trans fatty acids</td></tr>
+<tr><td>33</td><td><a data-page="page33" href="/">Glycemic Index</a></td><td> glycemic</td></tr>
+<tr><td>34</td><td><a data-page="page34" href="/">Kefir a Fermented Milk Probiotic</a></td><td> probiotic</td></tr>
+<tr><td>35</td><td><a data-page="page35" href="/">How to Learn More about What is Good for Your Health</a></td><td> health</td></tr>
+<tr><td>36</td><td><a data-page="page36" href="/">Calcium Builds Strong Bones</a></td><td> calcium</td></tr>
+<tr><td>37</td><td><a data-page="page37" href="/">The Mediterranean Diet and Long Life</a></td><td> diet</td></tr>
+<tr><td>38</td><td><a data-page="page38" href="/">Omega-3 Fatty Acids</a></td><td> omega3</td></tr>
+<tr><td>39</td><td><a data-page="page39" href="/">Vitamin and Mineral Supplements Lower Risk of Stroke</a></td><td> vitamins</td></tr>
+<tr><td>40</td><td><a data-page="page40" href="/">Dietary Fat and Breast Cancer</a></td><td>cancer fats</td></tr>
+<tr><td>41</td><td><a data-page="page41" href="/">Wine Consumption May Prevent Vision Loss</a></td><td> wine</td></tr> 
+<tr><td>42</td><td><a data-page="page42" href="/">Low Fat Milk - Labeling Changes in the US</a></td><td> label</td></tr> 
+<tr><td>43</td><td><a data-page="page43" href="/">About Us</a></td><td> contact editor webmaster info about</td></tr> 
+<tr><td>44</td><td><a data-page="page44" href="/">Concerns About Vitamin D Deficiency</a></td><td> vitamins</td></tr> 
+<tr><td>45</td><td><a data-page="page45" href="/">Eating Fish Cuts Cardiac Death</a></td><td> fish</td></tr> 
+<tr><td>46</td><td><a data-page="page46" href="/">Soy Products May be Useful in Menopause</a></td><td> soy</td></tr> 
+<tr><td>47</td><td><a data-page="page47" href="/">Vitamin Supplements May be Needed</a></td><td>supplements</td></tr> 
+<tr><td>48</td><td><a data-page="page48" href="/">Osteoperosis Easily Diagnosed in Women</a></td><td>osteoperosis</td></tr> 
+<tr><td>49</td><td><a data-page="page49" href="/">One Pill or Eight Kilograms of Carrots</a></td><td> vitamin</td></tr> 
+<tr><td>50</td><td><a data-page="page50" href="/">Eating Soy Bean to Fight Cancer</a></td> <td> soy</td> </tr>
+<tr> <td>51</td> <td><a data-page="page51" href="/">Yogurt - A Milk Product with More</a></td> <td> dairy yogurt</td> </tr> 
+<tr> <td>52</td> <td><a data-page="page52" href="/">Beta-Glucan in Oats Lowers Blood Cholesterol</a></td> <td> oats</td> </tr> 
+<tr> <td>53</td> <td><a data-page="page53" href="/">China Sets Rules on Health Foods</a></td> <td> china</td> </tr> 
+<tr> <td>54</td> <td><a data-page="page54" href="/">A Tomato a Day Keeps the Doctor Away</a></td> <td> tomato</td> </tr> 
+<tr> <td>55</td> <td><a data-page="page55" href="/">Survey - Questionaire - User Feedback</a></td> <td>survey questionaire feedback</td> </tr> 
+<tr> <td>56</td> <td><a data-page="page56" href="/">Probiotics and Prebiotics</a></td> <td> probiotics</td> </tr> 
+<tr> <td>57</td> <td><a data-page="page57" href="/">Magic Words</a></td> <td> label</td> </tr> 
+<tr> <td>58</td> <td><a data-page="page58" href="/">Getting More Soy in Your Diet</a></td> <td> soy</td> </tr> 
+<tr> <td>59</td> <td><a data-page="page59" href="/">Fruits &amp; Vegetables are Brain Food</a></td> <td> fruits</td> </tr> 
+<tr> <td>60</td> <td><a data-page="page60" href="/">Cereal - A Good Way to Start the Day</a></td> <td> cereal</td> </tr> 
+<tr> <td>61</td> <td><a data-page="page61" href="/">Vitamin C and Lung Disease</a></td> <td> vitamin</td> </tr> 
+<tr> <td>62</td> <td><a data-page="page62" href="/">A lot of Talk and Some Action</a></td> <td>policy labelling </td> </tr> 
+<tr> <td>63</td> <td><a data-page="page63" href="/">A Season for Cranberry and Reasons to Eat Them</a></td> <td> cranberry</td> </tr> 
+<tr> <td>64</td> <td><a data-page="page64" href="/">Homocysteine and Heart Disease</a></td> <td>heart homocystein </td> </tr> 
+<tr> <td>65</td> <td><a data-page="page65" href="/">Red Wine Good for Your Health</a></td> <td> wine</td> </tr> 
+<tr> <td>66</td> <td><a data-page="page66" href="/">Dietary Fiber - Even the Experts are Confused</a></td> <td> fiber</td> </tr> 
+<tr> <td>67</td> <td><a data-page="page67" href="/">Canadian Policy Becoming Clear</a></td> <td> policy</td> </tr> 
+<tr> <td>68</td> <td><a data-page="page68" href="/">What Price Health?</a></td> <td>labelling margarine</td> </tr> 
+<tr> <td>69</td> <td><a data-page="page69" href="/">Does Yogurt Reduce Cholesterol Levels?</a></td> <td> dairy yogurt</td> </tr> 
+<tr> <td>70</td> <td><a data-page="page70" href="/">Good and Bad Cholesterol</a></td> <td>cholesterol</td> </tr> 
+<tr> <td>71</td> <td><a data-page="page71" href="/">What is on the Label is What You Are Eating</a></td> <td> label</td> </tr> 
+<tr> <td>72</td> <td><a data-page="page72" href="/">Tomatoes Hit the Headlines Again</a></td> <td> tomato</td> </tr> 
+<tr> <td>73</td> <td><a data-page="page73" href="/">Questionnaire Results</a></td> <td>survey questionnaire results feedback</td> </tr> 
+<tr> <td>74</td> <td><a data-page="page74" href="/">Caffeine - We can Drink Coffee Again</a></td> <td>caffeine coffee</td> </tr> 
+<tr> <td>75</td> <td><a data-page="page75" href="/">Drug Companies Using Food Ingredients to Supply Estrogen</a></td> <td>soy estrogen</td> </tr> 
+<tr> <td>76</td> <td><a data-page="page76" href="/">Add More Flax to the Diet</a></td> <td>flax </td> </tr> 
+<tr> <td>77</td> <td><a data-page="page77" href="/">Biotechnology Functional Foods and Nutraceuticals</a></td> <td> biotech gmo</td> </tr> 
+<tr> <td>78</td> <td><a data-page="page78" href="/">Aren't Eating More; We are Exercising Less</a></td> <td> dieting</td> </tr> 
+<tr> <td>79</td> <td><a data-page="page79" href="/">Survey2 - Questionaire - User Feedback</a></td> <td>survey questionaire feedback</td> </tr>
+<tr> <td>80</td> <td><a data-page="page80" href="/">Seniors May Need to Boost Their Diet</a></td> <td> seniors</td> </tr> 
+<tr> <td>81</td> <td><a data-page="page81" href="/">Fat Intake and Colorectal Cancer</a></td> <td> fat</td> </tr> 
+<tr> <td>82</td> <td><a data-page="page82" href="/">Do We Need Chromium in Our Diets?</a></td> <td> chromium</td> </tr> 
+<tr> <td>83</td> <td><a data-page="page83" href="/">Coming to a Store Near You</a></td> <td>supplements epa dha q10 </td> </tr> 
+<tr> <td>84</td> <td><a data-page="page84" href="/">Fortified Breakfast Cereal</a></td> <td> cereal</td> </tr> 
+<tr> <td>85</td> <td><a data-page="page85" href="/">CLA - More Goodness in Milk</a></td> <td> cla milk</td> </tr> 
+<tr> <td>86</td> <td><a data-page="page86" href="/">The Sunshine Vitamin May Reduce Stress</a></td> <td> vitamin</td> </tr> 
+<tr> <td>87</td> <td><a data-page="page87" href="/">Health Headlines</a></td> <td>news info</td> </tr>
+<tr> <td>88</td> <td><a data-page="page88" href="/">Milk Peptides</a></td> <td> dairy milk</td> </tr> 
+<tr> <td>89</td> <td><a data-page="page89" href="/">Vitamin and Mineral Fortification</a></td> <td> vitamin</td> </tr> 
+<tr> <td>90</td> <td><a data-page="page90" href="/">Lactase Deficiency - Yogurt Helps</a></td> <td> dairy yogurt</td> </tr> 
+<tr> <td>91</td> <td><a data-page="page91" href="/">Diet for a New Millennium</a></td> <td> diet</td> </tr> 
+<tr> <td>92</td> <td><a data-page="page92" href="/">Garlic and Cholesterol</a></td> <td> garlic</td> </tr> 
+<tr> <td>93</td> <td><a data-page="page93" href="/">Fortifying Food</a></td> <td> fortify</td> </tr> 
+<tr> <td>94</td> <td><a data-page="page94" href="/">Trans Fatty Acids Found in Many Foods</a></td> <td> fats</td> </tr> 
+<tr> <td>95</td> <td><a data-page="page95" href="/">Soy Protein and Hot Flashes</a></td> <td> soy</td> </tr> 
+<tr> <td>96</td> <td><a data-page="page96" href="/">Now on Labels</a></td> <td> label</td> </tr> 
+<tr> <td>97</td> <td><a data-page="page97" href="/">Butter vs Margarine</a></td> <td> butter</td> </tr> 
+<tr> <td>98</td> <td><a data-page="page98" href="/">Lactose Intolerance and Calcium Status</a></td> <td> dairy</td> </tr> 
+<tr> <td>99</td> <td><a data-page="page99" href="/">Why We Should Know More About Psyllium</a></td> <td> psyllium</td> </tr> 
+<tr> <td>100</td> <td><a data-page="page100" href="/">Toxicity of Vitamins</a></td> <td> vitamins</td> </tr> 
+<tr> <td>101</td> <td><a data-page="page101" href="/">The Acidity of Food</a></td> <td> acid</td> </tr> 
+<tr> <td>102</td> <td><a data-page="page102" href="/">US Recognizes Benefits of Soy Protein</a></td> <td> soy</td> </tr> 
+<tr> <td>103</td> <td><a data-page="page103" href="/">Vitamin Supplementation Very Common</a></td> <td> vitamin</td> </tr> 
+<tr> <td>104</td> <td><a data-page="page104" href="/">Vegetarians and Vitamin B12</a></td> <td> vitamin</td> </tr> 
+<tr> <td>105</td> <td><a data-page="page105" href="/">Chocolates as Part of a Healthy Diet</a></td> <td> chocolate</td> </tr> 
+<tr> <td>106</td> <td><a data-page="page106" href="/">Fiber Helps Type 2 Diabetics</a></td> <td> fiber</td> </tr> 
+<tr> <td>107</td> <td><a data-page="page107" href="/">Good for You but Not a Cure</a></td> <td>cure tea </td> </tr> 
+<tr> <td>108</td> <td><a data-page="page108" href="/">No New Vitamins</a></td> <td> vitamins</td> </tr> 
+<tr> <td>109</td> <td><a data-page="page109" href="/">Healthy Colors in Fruits &amp; Vegetables</a></td> <td> fruits</td> </tr> 
+<tr> <td>110</td> <td><a data-page="page110" href="/">Watch Out for Hidden Fats</a></td> <td> fats</td> </tr> 
+<tr> <td>111</td> <td><a data-page="page111" href="/">Zinc an Essential Mineral</a></td> <td> zinc</td> </tr> 
+<tr> <td>112</td> <td><a data-page="page112" href="/">Olestra Turned Down</a></td> <td> fat</td> </tr> 
+<tr> <td>113</td> <td><a data-page="page113" href="/">Cooked Carrots May be Better than Raw Ones</a></td> <td> carrots</td> </tr> 
+<tr> <td>114</td> <td><a data-page="page114" href="/">Folic Acid: Getting Enough</a></td> <td> folic acid</td> </tr> 
+<tr> <td>115</td> <td><a data-page="page115" href="/">Grapefruit and Drug Interactions</a></td> <td> grapefruit</td> </tr> 
+<tr> <td>116</td> <td><a data-page="page116" href="/">Iodine Deficit Related Conditions</a></td> <td> iodine</td> </tr> 
+<tr> <td>117</td> <td><a data-page="page1170" href="/">Adding Anti-oxidants to the Diet</a></td> <td> anti-oxidants</td> </tr> 
+<tr> <td>118</td> <td><a data-page="page118" href="/">Lung Cancer Risk Reduced by Broccoli</a></td> <td> broccoli</td> </tr> 
+<tr> <td>119</td> <td><a data-page="page119" href="/">Fermenting Milk May Help Ulcer Sufferers</a></td> <td> dairy milk</td> </tr> 
+<tr> <td>120</td> <td><a data-page="page120" href="/">A Banana/Day Keeps the Doctor Away</a></td> <td> banana</td> </tr> 
+<tr> <td>121</td> <td><a data-page="page121" href="/">We Need Minerals But Not Too Much</a></td> <td> minerals</td> </tr> 
+<tr> <td>122</td> <td><a data-page="page122" href="/">Cancer Treatment Side Effects - Try Vitamins</a></td> <td> vitamins</td> </tr> 
+<tr> <td>123</td> <td><a data-page="page123" href="/">Adding Fish to Your Diet is a Good Idea</a></td> <td> fish</td> </tr> 
+<tr> <td>124</td> <td><a data-page="page124" href="/">Never had a Persimmon - A Good Time to Start</a></td> <td> persimmon</td> </tr> 
+<tr> <td>125</td> <td><a data-page="page125" href="/">The Debate About the Effects of Soy</a></td> <td> soy</td> </tr> 
+<tr> <td>126</td> <td><a data-page="page126" href="/">Vitamin E Good for Your Arteries</a></td> <td> viatmin</td> </tr> 
+<tr> <td>127</td> <td><a data-page="page127" href="/">Adding More Fiber to your Diet</a></td> <td> fiber</td> </tr> 
+<tr> <td>128</td> <td><a data-page="page128" href="/">Young Women Need Folic Acid Every Day</a></td> <td> folic acid vitamin</td> </tr> 
+<tr> <td>129</td> <td><a data-page="page129" href="/">Natural Health Products Legislation</a></td> <td> policy</td> </tr> 
+<tr> <td>130</td> <td><a data-page="page130" href="/">Fat in the Diet</a></td> <td> fat</td> </tr> 
+<tr> <td>131</td> <td><a data-page="page131" href="/">Coffee Not Good During Pregnancy</a></td> <td> coffee</td> </tr> 
+<tr> <td>132</td> <td><a data-page="page132" href="/">Sunlight and Vitamin D</a></td> <td> vitamin</td> </tr> 
+<tr> <td>133</td> <td><a data-page="page133" href="/">Health Claims on Canadian Foods</a></td> <td> policy</td> </tr> 
+<tr> <td>134</td> <td><a data-page="page134" href="/">Macadamia Nuts for Lower Cholesterol</a></td> <td> macadamian nuts</td> </tr> 
+<tr> <td>135</td> <td><a data-page="page135" href="/">Eating Spinach May be Good</a></td> <td> spinach</td> </tr> 
+<tr> <td>136</td> <td><a data-page="page136" href="/">Cranberry Juice for UTI Protection</a></td> <td> cranberry</td> </tr> 
+<tr> <td>137</td> <td><a data-page="page137" href="/">Sugary Drinks - Excess Calories for Kids</a></td> <td> sugary drinks</td> </tr> 
+<tr> <td>138</td> <td><a data-page="page138" href="/">Trans Fat Causes Health Problems</a></td> <td> fat</td> </tr> 
+<tr> <td>139</td> <td><a data-page="page139" href="/">Childhood Milk Consumption and Breast Cancer</a></td> <td>milk breast cancer</td> </tr> 
+<tr> <td>140</td> <td><a data-page="page140" href="/">One Pill with Everything for the Heart?</a></td> <td> heart</td> </tr> 
+<tr> <td>141</td> <td><a data-page="page141" href="/">Water the Forgotten Nutrient</a></td> <td> water</td> </tr> 
+<tr> <td>142</td> <td><a data-page="page142" href="/">Diet and Cancer</a></td> <td> diet cancer</td> </tr> 
+<tr> <td>143</td> <td><a data-page="page143" href="/">Fish and Omega3</a></td> <td> fish omega</td> </tr> 
+<tr> <td>144</td> <td><a data-page="page144" href="/">The Fourth Meal</a></td> <td> meal portion snack</td> </tr> 
+<tr> <td>145</td> <td><a data-page="page145" href="/">Alcohol Consumption and Heart Failure</a></td> <td>wine alcohol</td> </tr> 
+<tr> <td>146</td> <td><a data-page="page146" href="/">Biotin and Pregnancy</a></td> <td> biotin</td> </tr> 
+<tr> <td>147</td> <td><a data-page="page147" href="/">US Clarifies Claims for Supplements</a></td> <td> policy</td> </tr> 
+<tr> <td>148</td> <td><a data-page="page148" href="/">Goats Milk</a></td> <td> dairy milk</td> </tr> 
+<tr> <td>149</td> <td><a data-page="page149" href="/">Nutrition Challenges During Space Travel</a></td> <td> space diet</td> </tr> 
+<tr> <td>150</td> <td><a data-page="page150" href="/">Not All Teas the Same</a></td> <td> tea</td> </tr> 
+<tr> <td>151</td> <td><a data-page="page151" href="/">Low Calorie Alcoholic Drinks</a></td> <td> alcohol</td> </tr> 
+<tr> <td>152</td> <td><a data-page="page152" href="/">Meat and Cholesterol Levels</a></td> <td>meat cholesterol </td> </tr> 
+<tr> <td>153</td> <td><a data-page="page153" href="/">Do I Need to Take a Vitamin Supplement?</a></td> <td> vitamin</td> </tr> 
+<tr> <td>154</td> <td><a data-page="page154" href="/">The Apple - by Michael Koger</a></td> <td> apple</td> </tr> 
+<tr> <td>155</td> <td><a data-page="page155" href="/">Miso - a Fermented Food from Japan</a></td> <td> miso</td> </tr> 
+<tr> <td>156</td> <td><a data-page="page156" href="/">Eat Healthy, Eat Less</a></td> <td> diet</td> </tr> 
+<tr> <td>157</td> <td><a data-page="page157" href="/">Our Modern Diet</a></td> <td> diet</td> </tr> 
+<tr> <td>158</td> <td><a data-page="page158" href="/">What are Functional Foods?</a></td> <td> functional food</td> </tr> 
+<tr> <td>159</td> <td><a data-page="page159" href="/">Which Soy Drink?</a></td> <td> soy</td> </tr>
+<tr> <td>160</td> <td><a data-page="page160" href="/">Recommended Reading </a></td> <td>books resources read </td> </tr>
+<tr> <td>161</td> <td><a data-page="page161" href="/">Eating Fast Food</a></td> <td> fast food</td> </tr> 
+<tr> <td>162</td> <td><a data-page="page162" href="/">New Food Labelling Rules in Canada</a></td> <td> label</td> </tr> 
+<tr> <td>163</td> <td><a data-page="page163" href="/">Why is Gut Health Important?</a></td> <td> gut</td> </tr> 
+<tr> <td>164</td> <td><a data-page="page164" href="/">Active Ingredient in Broccoli Enhanced</a></td> <td> broccoli</td> </tr> 
+<tr> <td>165</td> <td><a data-page="page165" href="/">Everyone is on a Diet</a></td> <td> diet</td> </tr> 
+<tr> <td>166</td> <td><a data-page="page166" href="/">Flax and its Ability to Prevent Prostate Cancer</a></td> <td> flax prostate cancer</td> </tr> 
+<tr> <td>167</td> <td><a data-page="page167" href="/">Nutrition Information on the Web</a></td> <td> info</td> </tr> 
+<tr> <td>168</td> <td><a data-page="page168" href="/">What is the Glycemic Index?</a></td> <td> glycemic index</td> </tr> 
+<tr> <td>169</td> <td><a data-page="page169" href="/">Colourful Fruits and Vegetables</a></td> <td> fruit</td> </tr> 
+<tr> <td>170</td> <td><a data-page="page170" href="/">Trans Fat Becomes a New Fat to Avoid</a></td> <td> fat</td> </tr> 
+<tr> <td>171</td> <td><a data-page="page171" href="/">Beets - Tops Are Best</a></td> <td> beets</td> </tr> 
+<tr> <td>172</td> <td><a data-page="page172" href="/">That’s Not Just Peanuts</a></td> <td> nuts peanuts</td> </tr> 
+<tr> <td>173</td> <td><a data-page="page173" href="/">Vitamin D and Health</a></td> <td> vitamin</td> </tr> 
+<tr> <td>174</td> <td><a data-page="page174" href="/">Circulation 100,000</a></td> <td> website</td> </tr> 
+<tr> <td>175</td> <td><a data-page="page175" href="/">Cheese is Good for Your Teeth</a></td> <td> dairy cheese</td> </tr> 
+<tr> <td>176</td> <td><a data-page="page176" href="/">Sport Drinks Promise a Lot, But Do They Deliver?</a></td> <td> sport drinks</td> </tr> 
+<tr> <td>177</td> <td><a data-page="page177" href="/">Get More EPA and DHA in Your Diet</a></td> <td> EPA omega</td> </tr> 
+<tr> <td>178</td> <td><a data-page="page178" href="/">Food Allergies - When Our Food is Bad for Our Health</a></td> <td> allergies</td> </tr> 
+<tr> <td>179</td> <td><a data-page="page179" href="/">Healthy Lunches for your Kids</a></td> <td>lunch kids diet</td> </tr> 
+<tr> <td>180</td> <td><a data-page="page180" href="/">Protect Your Vegetable Oil</a></td> <td> oil</td> </tr> 
+<tr> <td>181</td> <td><a data-page="page181" href="/">Water and Super Water</a></td> <td> water</td> </tr> 
+<tr> <td>182</td> <td><a data-page="page182" href="/">Yeast May Help Fight Infection</a></td> <td> yeast</td> </tr> 
+<tr> <td>183</td> <td><a data-page="page183" href="/">Foods to Stimulate the Immune System</a></td> <td>immune </td> </tr> 
+<tr> <td>184</td> <td><a data-page="page184" href="/">Multi-grain Cereals And Bread</a></td> <td> cereals</td> </tr> 
+<tr> <td>185</td> <td><a data-page="page185" href="/">Olive Oil Gets USFDA Endorsement</a></td> <td> oil</td> </tr> 
+<tr> <td>186</td> <td><a data-page="page186" href="/">Too Much Vitamin E Not Good For You?</a></td> <td> vitamin</td> </tr> 
+<tr> <td>187</td> <td><a data-page="page187" href="/">Ancient Wheats and New Perspective</a></td> <td> grain</td> </tr> 
+<tr> <td>188</td> <td><a data-page="page188" href="/">Blueberries Should be in Your Diet</a></td> <td> blueberries</td> </tr> 
+<tr> <td>189</td> <td><a data-page="page189" href="/">Does Garlic have Health Benefits?</a></td> <td> garlic</td> </tr> 
+<tr> <td>190</td> <td><a data-page="page190" href="/">Breast Fed Babies Start off Right</a></td> <td> diet</td> </tr> 
+<tr> <td>191</td> <td><a data-page="page191" href="/">Isoflavones - the Active Ingredients in Soybean</a></td> <td> soy</td> </tr> 
+<tr> <td>192</td> <td><a data-page="page192" href="/">Carbs - A Popular Topic for Weight Watchers</a></td> <td> carbs</td> </tr> 
+<tr> <td>193</td> <td><a data-page="page193" href="/">Supplements for keeping mentally sharp in Old Age</a></td> <td> supplements</td> </tr> 
+<tr> <td>194</td> <td><a data-page="page194" href="/">Celiac Disease A Disease of the Digestive System</a></td> <td> gut</td> </tr> 
+<tr> <td>195</td> <td><a data-page="page195" href="/">Eat What You Want and Walk it Off</a></td> <td> exercise</td> </tr> 
+<tr> <td>196</td> <td><a data-page="page196" href="/">Algae - A new Source of Nutrients</a></td> <td> algae</td> </tr> 
+<tr> <td>197</td> <td><a data-page="page197" href="/">Irritable Bowel Syndrome</a></td> <td> gut IBS</td> </tr> 
+<tr> <td>198</td> <td><a data-page="page198" href="/">Water - Have You had a Glass or Two Today</a></td> <td> water</td> </tr> 
+<tr> <td>199</td> <td><a data-page="page199" href="/">Soy and Prostate Cancer</a></td> <td> soy cancer prostate</td> </tr> 
+<tr> <td>200</td> <td><a data-page="page200" href="/">Does Dieting Make You Fat?</a></td> <td>fat diet</td> </tr> 
+<tr> <td>201</td> <td><a data-page="page201" href="/">What to Do With Eggplants</a></td> <td> eggplant</td> </tr> 
+<tr> <td>202</td> <td><a data-page="page202" href="/">Is Chromium a Fat Burner?</a></td> <td> chromium</td> </tr> 
+<tr> <td>203</td> <td><a data-page="page203" href="/">Mangoes Are Hard to Eat but Good For You</a></td> <td> mangoes</td> </tr> 
+<tr> <td>204</td> <td><a data-page="page204" href="/">Drinking Green Tea a Way to Avoid Caffeine?</a></td> <td> tea</td> </tr> 
+<tr> <td>205</td> <td><a data-page="page205" href="/">Synbiotics for Good Gut Health</a></td> <td> gut</td> </tr> 
+<tr> <td>206</td> <td><a data-page="page206" href="/">Eating Broccoli May Help Seniors Protect their Eyesight</a></td> <td> broccoli</td> </tr> 
+<tr> <td>207</td> <td><a data-page="page207" href="/">Getting the Most Out of Food Labels</a></td> <td> label</td> </tr> 
+<tr> <td>208</td> <td><a data-page="page208" href="/">Canada Gets Tough on Trans Fats</a></td> <td> fats</td> </tr> 
+<tr> <td>209</td> <td><a data-page="page209" href="/">Several Vitamin E's Effective Against Prostate Cancer</a></td> <td>prostate cancer vitamin</td> </tr> 
+<tr> <td>210</td> <td><a data-page="page210" href="/">Link Resources </a></td> <td> resources read internet</td> </tr>
+<tr> <td>211</td> <td><a data-page="page211" href="/">Popcorn: The Perfect Snack for Couch Potatoes?</a></td> <td> popcorn</td> </tr> 
+<tr> <td>212</td> <td><a data-page="page212" href="/">Using Diet to Lower Cholesterol</a></td> <td>cholesterol diet</td> </tr> 
+<tr> <td>213</td> <td><a data-page="page213" href="/">Genetically Modified Tomatoes are Healthier</a></td> <td> tomato GMO</td> </tr> 
+<tr> <td>214</td> <td><a data-page="page214" href="/">Cereal Foods and Celiac Disease</a></td> <td> cereal gut</td> </tr> 
+<tr> <td>215</td> <td><a data-page="page215" href="/">Info page </a></td> <td>info about spa </td> </tr>
+<tr> <td>216</td> <td><a data-page="page216" href="/">Implied Nutrition Health Claims</a></td> <td> label</td> </tr> 
+<tr> <td>217</td> <td><a data-page="page217" href="/">Getting the Trans Fat Out</a></td> <td> fat</td> </tr> 
+<tr> <td>218</td> <td><a data-page="page218" href="/">Pulses Are Low Glycemic Foods</a></td> <td> glycemic index</td> </tr> 
+<tr> <td>219</td> <td><a data-page="page219" href="/">Controlling Portion Sizes</a></td> <td> </td> </tr> 
+<tr> <td>220</td> <td><a data-page="page220" href="/">Eating Less Energy Dense Food</a></td> <td> diet</td> </tr> 
+<tr> <td>221</td> <td><a data-page="page221" href="/">Quinoa - A Balanced Protein Source</a></td> <td> quinoa</td> </tr> 
+<tr> <td>222</td> <td><a data-page="page222" href="/">Probiotics How to Compare Products</a></td> <td> probiotics</td> </tr> 
+<tr> <td>223</td> <td><a data-page="page223" href="/">We Are Eating Too Much Salt</a></td> <td> salt</td> </tr> 
+<tr> <td>224</td> <td><a data-page="page224" href="/">Vitamin D - How Much? What Source?</a></td> <td> vitamin</td> </tr> 
+<tr> <td>225</td> <td><a data-page="page225" href="/">Pomegranates - Something Old, Something New</a></td> <td> pomegranate</td> </tr> 
+<tr> <td>226</td> <td><a data-page="page226" href="/">Glutathione - Not That Easy to Get</a></td> <td> glutathione</td> </tr> 
+<tr> <td>227</td> <td><a data-page="page227" href="/">The Goodness of 'Whole Wheat'</a></td> <td> wheat</td> </tr> 
+<tr> <td>228</td> <td><a data-page="page228" href="/">What is Omega3?</a></td> <td> omega3</td> </tr> 
+<tr> <td>229</td> <td><a data-page="page229" href="/">Ginger - More Than Just Taste</a></td> <td> ginger</td> </tr> 
+<tr> <td>230</td> <td><a data-page="page230" href="/">Getting More Calcium</a></td> <td> calcium</td> </tr> 
+<tr> <td>231</td> <td><a data-page="page231" href="/">Dietary Salt and Your Health</a></td> <td> salt</td> </tr> 
+<tr> <td>232</td> <td><a data-page="page232" href="/">Stevia - a New Sweetener</a></td> <td>stevia sweetner </td> </tr> 
+<tr> <td>233</td> <td><a data-page="page233" href="/">Foods that Starve Cancer</a></td> <td>cancer diet</td> </tr> 
+<tr> <td>234</td> <td><a data-page="page234" href="/">Plant sterols and Blood Cholesterol</a></td> <td> sterols</td> </tr> 
+<tr> <td>235</td> <td><a data-page="page235" href="/">Vitamin B12 Getting More Attention</a></td> <td> vitamin</td> </tr> 
+<tr> <td>236</td> <td><a data-page="page236" href="/">Fueling the obesity epidemic</a></td> <td>fat diet</td> </tr> 
+<tr> <td>237</td> <td><a data-page="page237" href="/">Which is Better - a Donut or a Muffin?</a></td> <td> dieting</td> </tr> 
+<tr> <td>238</td> <td><a data-page="page238" href="/">Satiety – Do You Feel Full Yet?</a></td> <td> satiety</td> </tr> 
+<tr> <td>239</td> <td><a data-page="page239" href="/">Challenges of using glycemic index</a></td> <td> glycemic index</td> </tr> 
+<tr> <td>240</td> <td><a data-page="page240" href="/">Using Food Labels to Improve Your Diet</a></td> <td> label</td> </tr> 
+<tr> <td>241</td> <td><a data-page="page241" href="/">Milk Products and Lactose Intolerance</a></td> <td> dairy milk</td> </tr> 
+<tr> <td>242</td> <td><a data-page="page242" href="/">Adding Colour to Your Diet</a></td> <td> diet</td> </tr> 
+<tr> <td>243</td> <td><a data-page="page243" href="/">Blood Pressure and Insurance Rates</a></td> <td>insurance </td> </tr> 
+<tr> <td>244</td> <td><a data-page="page244" href="/">Little Risk in Eating More Fish</a></td> <td> fish</td> </tr> 
+<tr> <td>245</td> <td><a data-page="page245" href="/">Prairie Rice - Not What You Think</a></td> <td> rice</td> </tr> 
+<tr> <td>246</td> <td><a data-page="page246" href="/">Avocado</a></td> <td> avocado fat, lipid, heart health</td> </tr> 
+<tr> <td>247</td> <td><a data-page="page247" href="/">Eggs, cholesterol and heart disease</a></td> <td> eggs</td> </tr> 
+<tr> <td>248</td> <td><a data-page="page248" href="/">The Energy Value of Almonds</a></td> <td> nuts almonds calorie cholesterol heart disease</td> </tr> 
+<tr> <td>249</td> <td><a data-page="page249" href="/">Fruit Juices, Sugar and Calories</a></td> <td> drinks</td> </tr> 
+<tr> <td>250</td> <td><a data-page="page250" href="/">Greek Yogurt</a></td> <td> dairy yogurt</td> </tr> 
+<tr> <td>251</td> <td><a data-page="page251" href="/">Health Benefits of Pine Needle Tea</a></td> <td> tea</td> </tr> 
+<tr> <td>252</td> <td><a data-page="page252" href="/">Processed Foods The Oat Example</a></td> <td> oats</td> </tr> 
+<tr> <td>253</td> <td><a data-page="page253" href="/">Sugar? What Sugar?</a></td> <td> sugar</td> </tr> 
+<tr> <td>254</td> <td><a data-page="page254" href="/">Chia Seed: a superfood for the ages</a></td> <td> chia Salvia hispanica,nutrition, seed</td> </tr> 
+<tr> <td>255</td> <td><a data-page="page255" href="/">Obesity : The Myths</a></td> <td> diet</td> </tr> 
+<tr> <td>256</td> <td><a data-page="page256" href="/">Sources of Gluten to be Avoided</a></td> <td> gluten</td> </tr> 
+<tr> <td>257</td> <td><a data-page="page257" href="/">Beets</a></td> <td> beets</td> </tr> 
+<tr> <td>258</td> <td><a data-page="page258" href="/">Vitamin K</a></td> <td> vitamin</td> </tr> 
+<tr> <td>259</td> <td><a data-page="page259" href="/">Chocolate Milk Not Empty Calories</a></td> <td> dairy milk</td> </tr> 
+<tr> <td>260</td> <td><a data-page="page260" href="/">Getting Good Nutrition Info</a></td> <td> info</td> </tr> 
+<tr> <td>261</td> <td><a data-page="page261" href="/">Jerusalem Artichoke</a></td> <td> artichoke</td> </tr> 
+<tr> <td>262</td> <td><a data-page="page262" href="/">How to Lose Weight</a></td> <td> dieting</td> </tr> 
+<tr> <td>263</td> <td><a data-page="page263" href="/">Headline News </a></td> <td>news info </td> </tr>
+<tr> <td>264</td> <td><a data-page="page264" href="/">Planning a Healthy Diet</a></td> <td> diet</td> </tr> 
+<tr> <td>265</td> <td><a data-page="page265" href="/">Replacing fat with other calories</a></td> <td> diet calories</td> </tr> 
+<tr> <td>266</td> <td><a data-page="page266" href="/">Top 2015 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+<tr> <td>267</td> <td><a data-page="page267" href="/">Top 2017 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+<tr> <td>268</td> <td><a data-page="page268" href="/">Top 2018 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+<tr> <td>269</td> <td><a data-page="page269" href="/">Top 2019 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+<tr> <td>270</td> <td><a data-page="page270" href="/">Top 2020 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+<tr> <td>271</td> <td><a data-page="page271" href="/">Top 2021 Articles Tweeted in the News</a></td> <td> twitter tweets</td> </tr> 
+  </tbody>
+  </table>
+      </nav>
+    </article>
+   </section>
+         <footer style="width: 100%">
+          <nav class="flex-between">
+          <!--a data-page="page100" class="previous">&laquo; Previous</a-->
+          <button onclick="prevPage()" class="previous">&laquo; Previous</button>
+          <a data-page="page272" class="menu">Me&#9776;nu</a>
+          <!--a data-page="page100" class="next">Next &raquo;</a-->
+          <button onclick="nextPage()" class="next">Next &raquo;</button>
+        </nav>
+        </footer>
+
+  
+
+<script>
+  const e = () => {
+     localStorage.setItem("theme-preference", a.value), t()
+ },
+ t = () => {
+     document.firstElementChild.setAttribute("data-theme", a.value), document.querySelector("#theme-toggle")?.setAttribute("aria-label", a.value)
+ },
+ a = {
+     value: localStorage.getItem("theme-preference") ? localStorage.getItem("theme-preference") : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"
+ };
+t(), window.onload = () => {
+ t(), document.querySelector("#theme-toggle").addEventListener("click", (t => {
+     a.value = "light" === a.value ? "dark" : "light", e()
+ }))
+}, window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (({
+ matches: t
+}) => {
+ a.value = t ? "dark" : "light", e()
+}));
+
+</script>
+<script>
+  function mySearch() {
+      var input, filter, table, tr, td, i, txtValue;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[2];
+        if (td) {
+          txtValue = td.textContent || td.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
+        }       
+      }
+    }
+
+</script>
+<script>
+  let myArticle = document.querySelector('article');
+    let myLinks = document.querySelectorAll('nav a');
+        for(var i = 0; i <= myLinks.length - 1; i++) {
+       myLinks[i].onclick = function(e) {
+         e.preventDefault();
+        let linkData = e.target.getAttribute('data-page');
+         localStorage.setItem('pageNo', linkData);
+         getData(linkData);
+ 
+       }
+ //      let nextNo = "page" + (Number(linkData.substring(4)) + 1);
+  //     console.log(nextNo);
+     };
+ 
+     function getData(pageId) {
+      let myRequest = new Request(pageId + '.txt');
+      const scrollToTop = () => window.scrollTo(0, 0);
+       fetch(myRequest)
+       .then(function(response) {
+         if (!response.ok) {
+           throw new Error("HTTP error, status = " + response.status);
+         }
+ //history.replaceState(null, null, pageId);
+         return response.text();
+       })
+       .then(function(text) {
+         scrollToTop();
+         myArticle.innerHTML = text;
+       })
+       .catch(function(error) {
+         myArticle.innerHTML = '';
+         myArticle.appendChild(
+           document.createTextNode('Error: ' + error.message)
+         );
+       });
+     }
+     function nextPage() {
+       let currentPage = localStorage.getItem('pageNo');
+       let no = Number(currentPage.substring(4));
+       let nextNo =  (no + 1);
+       if (nextNo < 272) {
+        nextNo = "page" + nextNo;
+       } else {
+        nextNo = "page271";
+       }
+       localStorage.setItem('pageNo', nextNo);
+         getData(nextNo);
+     }
+     function prevPage() {
+       let currentPage = localStorage.getItem('pageNo');
+       let no = Number(currentPage.substring(4));
+       let prevNo = (no - 1);
+       if (prevNo > 0) {
+        prevNo = "page" + prevNo;
+       } else {
+        prevNo = "page1";
+       }
+ 
+ 
+       localStorage.setItem('pageNo', prevNo);
+         getData(prevNo);
+     }
+ 
+ </script>
+<script>
+  // Check that service workers are supported
+  if ('serviceWorker' in navigator) {
+    // Use the window load event to keep the page load performant
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/serviceworker.js');
+      console.log('Worker Registered');
+    });
+  }
+  </script>   
+</body>
+</html>

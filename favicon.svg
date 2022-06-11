@@ -1,0 +1,7 @@
+    <svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+        <rect x="70" y="110" width="80" height="80" rx="10" transform="skewY(-25)" fill="none" stroke="black" />
+        <rect x="50" y="-60" width="80" height="80" rx="10" transform="skewX(30) rotate(65) scale(0.6 1.2)" fill="none" stroke="black" />
+<text x="10" y="80" style="fill: red; stroke: #000000;  font-size: 64px;" transform="skewY(45)">M</text>
+<text x="90" y="180" style="fill: red; stroke: #000000;  font-size: 64px;" transform="skewY(-30)">N</text>
+<text x="20" y="50" style="fill: red; stroke: #000000;  font-size: 64px;"  transform="translate(30) rotate(60 20 30) skewY(-30)">F</text>
+    </svg>
